@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color:rgb(2, 19, 19);
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    text-align:right;
+}
+nav a{
+    list-style:none;
+    display: flex;
+    color: rgb(223, 114, 13);
+
+    
+}
+nav ul li{
+    margin: 10 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(247, 239, 239);
+    text-align: right;
+     display: flex;
+}
+nav ul li a{
+    padding: 10px 10px;
+    transition: all 0.76s ease;
+}
+nav ul li a.active,
+nav ul li a. :hover {
+    background-color: aqua;
+}
